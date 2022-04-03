@@ -33,7 +33,7 @@ the move method is only for the rook now, because we assumed the bishop never mo
 When we add more traits for the bishop or add other moving chesses into the game,
 it required us to redesign the move().
 
-Designed a mock Game class for testing purpose
+Designed a mockGame class extends Game class for testing purpose
 
 ![img_2.png](img_2.png)
 
