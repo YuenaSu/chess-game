@@ -26,32 +26,35 @@ public class Test {
         game.move();
         System.out.println(game.pos());
 
+        System.out.println("rook wins");
         game = new mockGame(8, 8, new int[]{2, 2}, new int[]{7, 0}, 15);
         for (int i = 0; i < 15; i++) {
             game.addTestNumber(new int[]{1, 1, 1});
             game.move();
         }
-
         System.out.println(game.toString());
 
+        System.out.println("rook wins");
         game = new mockGame(8, 8, new int[]{2, 2}, new int[]{7, 0}, 15);
         for (int i = 0; i < 15; i++) {
             game.addTestNumber(new int[]{0, 1, 1});
             game.move();
         }
-
         System.out.println(game.toString());
 
+        System.out.println("bishop wins");
         game = new mockGame(8, 8, new int[]{2, 2}, new int[]{7, 0}, 15);
         game.addTestNumber(new int[]{1, 0, 1});
         game.move();
         System.out.println(game.toString());
 
+        System.out.println("bishop wins");
         game = new mockGame(8, 8, new int[]{2, 2}, new int[]{7, 0}, 15);
         game.addTestNumber(new int[]{1, 2, 3});
         game.move();
         System.out.println(game.toString());
 
+        System.out.println("bishop wins");
         game = new mockGame(8, 8, new int[]{2, 2}, new int[]{7, 0}, 15);
         game.addTestNumber(new int[]{0, 1, 2});
         game.move();
