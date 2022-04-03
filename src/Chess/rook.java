@@ -1,5 +1,8 @@
 package Chess;
 
+/**
+ * rook can only move vertically and horizontally
+ */
 public class rook implements chess {
 
     @Override

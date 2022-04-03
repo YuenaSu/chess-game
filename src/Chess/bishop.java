@@ -1,5 +1,8 @@
 package Chess;
 
+/**
+ *bishop can move diagonally
+ */
 public class bishop implements chess {
 
     @Override
