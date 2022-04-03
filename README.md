@@ -34,6 +34,7 @@ When we add more traits for the bishop or add other moving chesses into the game
 it required us to redesign the move().
 
 Designed a mock Game class for testing purpose
+
 ![img_2.png](img_2.png)
 
 pros:
